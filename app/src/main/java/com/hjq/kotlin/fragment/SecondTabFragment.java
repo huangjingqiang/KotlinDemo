@@ -27,6 +27,12 @@ public class SecondTabFragment extends SupportFragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_second,container,false);
+
+        initView(view);
         return view;
+    }
+
+    private void initView(View view) {
+
     }
 }
